@@ -1,0 +1,25 @@
+# Local app / workspace state
+.agent/
+.minimax/
+.tmp-ctf-skills-inspect/
+codex_session_*.jsonl
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# Secrets / recovery files
+aly_key.txt
+github-recovery-codes.txt
+.env
+.env.*
+*.pem
+*.p12
+*.pfx
